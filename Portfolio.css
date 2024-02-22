@@ -1,18 +1,26 @@
 :root {
     --header-background: #FFFFFF;
     --header-link: #212121;
+    --header-border: #ECECEC;
     --button-background: #F5F4FA;
     --button-text: #212121;
     --button-background-hover: #2196F3;
     --button-text-hover: #FFFFFF;
+    --photos-border:#EEEEEE;
     --photos-describe-text: #212121;
     --photos-type-text: #757575;
+    --photos-figure-background: #EEEEEE;
+    --photos-figcaption-background: #FFFFFF;
     --footer-background: #2F303A;
     --footer-text-adress: #FFFFFF;
     --footer-link: #FFFFFF99;
 }
 .color_blue {
     color: blue;
+}
+ul {
+    color: white;
+    padding: 0;
 }
 .container {
     width: 1170px;
@@ -24,6 +32,12 @@ body {
 }
 .header {
     background-color: var(--header-background);
+    border-bottom: solid 1px var(--header-border);
+    
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
 }
 .header-link {
     font-weight: 500;
@@ -31,12 +45,25 @@ body {
     color: var(--header-link);
     font-size: 14px;
 }
+.section-buttons {
+    margin-top: 94px;
+}
+.buttons-list {
+    display: flex;
+    justify-content: center;
+}
+.buttons-item:not(:last-child) {
+    margin-right: 30px;
+}
 .button {
     background-color: var(--button-background);
     color: var(--button-text);
     line-height: 117%;
     font-weight: 500;
     font-size: 16px;
+    padding: 6px 25px;
+    border: 0;
+    border-radius: 4px;
 }
 .button:hover {
     background-color: var(--button-background-hover);
@@ -44,6 +71,26 @@ body {
     line-height: 117%;
     font-weight: 500;
     font-size: 16px;
+    padding: 6px 25px;
+    border: 0;
+    border-radius: 4px;
+}
+.fotos-figure{
+    width: 370px;
+    margin: 0;
+    background-color: var(--photos-figure-background);
+    border: solid 1px var(--photos-border);
+}
+.photos-figcaption {
+    background-color: var(--photos-figcaption-background);
+}
+.photo {
+    width: 100%;
+}
+.fotos-list {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 .photo-description {
     color: var(--photos-describe-text);
