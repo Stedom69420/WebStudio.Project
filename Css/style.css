@@ -3,6 +3,7 @@
     --header-item: #212121;
     --section-effective-solutions: #2F303A;
     --effective-solutions-title: #FFFFFF;
+    --text-hover-color: #2196F3;
     --effective-solutions-button-background: #2196F3;
     --effective-solutions-button-text: #FFFFFF;
     --descriptions-background: #FFF;
@@ -35,12 +36,13 @@
         font-weight: 500;
         line-height: 117%;
         color: var(--header-item);
+        text-decoration: none;
     }
     .header-link:hover {
-        color:blue;
+        color: var(--text-hover-color);
     }
     .section-effective-solutions{
-        background-color: var(--section-effective-solutions);
+        background-image: url("/img/section-background.png");
         padding: 200px 0px;
     }
     .effective-solutions-title {
@@ -49,6 +51,7 @@
         color: var(--effective-solutions-title);
         margin-bottom: 30px;
         font-size: 44px;
+        text-align: center;
         display: flex;
         justify-content: center;
     }
