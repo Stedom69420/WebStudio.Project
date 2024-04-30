@@ -117,31 +117,42 @@
         font-weight: 500;
         color: var(--team-text-name);
         line-height: 118%;
+        font-size: 16px;
+        text-align: center;
     }
     .team-text-job {
         font-weight: 400;
         color: var(--team-text-job);
         line-height: 118%;
+        font-size: 16px;
+        text-align: center;
     }
     .footer {
         background-color: var(--footer-background);
         padding: 60px 0;
     }
-    .footer-text-adress {
+    .footer-p {
         color: var(--footer-text-adress);
         line-height: 171%;
         font-weight: 400;
+        font-size: 14px;
+        font-style: normal;
     }
-    .footer-link {
+    .footer-text {
         color: var(--footer-link);
-        font-weight: 400;
+        font-size: 14px;
         line-height: 171%;
+        font-weight: 400;
     }
-    footer-link:hover {
-        color: blue;
+    .footer-img{
+        margin-bottom: 20px;
     }
     .container {
         width: 1170px;
         margin: 0 auto;
         padding: 0 15px;
+    }
+    .description-list {
+        display: flex;
+        justify-content: space-evenly;
     }
