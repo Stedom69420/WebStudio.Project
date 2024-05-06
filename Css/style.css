@@ -19,6 +19,7 @@
     --footer-background: #2F303A;
     --footer-text-adress: #FFFFFF;
     --footer-link: #FFFFFF99;
+    --description-icon-background: #F5F4FA;
     }
     ul {
         color: white;
@@ -155,4 +156,24 @@
     .description-list {
         display: flex;
         justify-content: space-evenly;
+    }
+    .description-item::before {
+        background-color: var(--description-icon-background);
+        height: 120px;
+        width: 270px;
+        display: block;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .description-item-1::before{
+        content: url('/img/antenna.png');
+    }
+    .description-item-2::before{
+        content: url('/img/Clock.png');
+    }
+    .description-item-3::before{
+        content: url('/img/computer-diagram.png');
+    }
+    .description-item-4::before{
+        content: url('/img/astronaut.png');
     }
