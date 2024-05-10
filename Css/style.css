@@ -20,160 +20,191 @@
     --footer-text-adress: #FFFFFF;
     --footer-link: #FFFFFF99;
     --description-icon-background: #F5F4FA;
-    }
-    ul {
-        color: white;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-    }
-    body {
-        font-family: 'Roboto', sans-serif;
-    }
-    .header {
-        background-color: var(--header-background);
-    }
-    .header-link {
-        font-weight: 500;
-        line-height: 117%;
-        color: var(--header-item);
-        text-decoration: none;
-    }
-    .header-link:hover {
-        color: var(--text-hover-color);
-    }
-    .section-effective-solutions{
-        background-image: url("/img/section-background.png");
-        padding: 200px 0px;
-    }
-    .effective-solutions-title {
-        font-weight: 900;
-        line-height: 136%;
-        color: var(--effective-solutions-title);
-        margin-bottom: 30px;
-        font-size: 44px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
-    .effective-solutions-button {
-        background-color: var(--effective-solutions-button-background);
-        color: var(--effective-solutions-button-text);
-        font-weight: 700;
-        line-height: 187%;
-        margin: 0 auto;
-        display: block;
-    }
-    .section-description {
-        background-color: var(--descriptions-background);
-        padding: 94px 0;
-    }
-    h3.description-title {
-        color: var(--description-title);
-        font-weight: 700;
-        line-height: 114%;
-    }
-    p.description-text {
-        color: var(--description-text);
-        font-weight: 400;
-        line-height: 171%;
-    }
-    .section-what-we-do {
-        background-color: var(--section-what-we-do-background);
-        padding: 94px 0;
-    }
-    .what-we-do-title {
-        line-height: 116%;
-        color: var(--what-we-do-title);
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: center;
-    }
-    .section-team {
-        background-color: var(--section-team-background);
-        padding: 94px 0;
-    }
-    h1.team-title {
-        color: var(--team-title);
-        line-height: 116%;
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: center;
-    }
-    .team-figure {
-        margin: 0;
-        width: 270px;
-        background-color: var(--team-figure-background);
-    }
-    .team-photo {
-        width: 100%;
-        height: 260px;
-    }
-    .team-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .team-text-name {
-        font-weight: 500;
-        color: var(--team-text-name);
-        line-height: 118%;
-        font-size: 16px;
-        text-align: center;
-    }
-    .team-text-job {
-        font-weight: 400;
-        color: var(--team-text-job);
-        line-height: 118%;
-        font-size: 16px;
-        text-align: center;
-    }
-    .footer {
-        background-color: var(--footer-background);
-        padding: 60px 0;
-    }
-    .footer-p {
-        color: var(--footer-text-adress);
-        line-height: 171%;
-        font-weight: 400;
-        font-size: 14px;
-        font-style: normal;
-    }
-    .footer-text {
-        color: var(--footer-link);
-        font-size: 14px;
-        line-height: 171%;
-        font-weight: 400;
-    }
-    .footer-img{
-        margin-bottom: 20px;
-    }
-    .container {
-        width: 1170px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-    .description-list {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .description-item::before {
-        background-color: var(--description-icon-background);
-        height: 120px;
-        width: 270px;
-        display: block;
-        text-align: center;
-        margin-right: 30px;
-    }
-    .description-item-1::before{
-        content: url('/img/antenna.png');
-    }
-    .description-item-2::before{
-        content: url('/img/Clock.png');
-    }
-    .description-item-3::before{
-        content: url('/img/computer-diagram.png');
-    }
-    .description-item-4::before{
-        content: url('/img/astronaut.png');
-    }
+}
+
+ul {
+    color: white;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: var(--header-background);
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 117%;
+    color: var(--header-item);
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: var(--text-hover-color);
+}
+
+.section-effective-solutions {
+    background-image: url("/img/section-background.png");
+    padding: 200px 0px;
+}
+
+.effective-solutions-title {
+    font-weight: 900;
+    line-height: 136%;
+    color: var(--effective-solutions-title);
+    margin-bottom: 30px;
+    font-size: 44px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.effective-solutions-button {
+    background-color: var(--effective-solutions-button-background);
+    color: var(--effective-solutions-button-text);
+    font-weight: 700;
+    line-height: 187%;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-description {
+    background-color: var(--descriptions-background);
+    padding: 94px 0;
+}
+
+h3.description-title {
+    color: var(--description-title);
+    font-weight: 700;
+    line-height: 114%;
+}
+
+p.description-text {
+    color: var(--description-text);
+    font-weight: 400;
+    line-height: 171%;
+}
+
+.section-what-we-do {
+    background-color: var(--section-what-we-do-background);
+    padding: 94px 0;
+}
+
+.what-we-do-title {
+    line-height: 116%;
+    color: var(--what-we-do-title);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-team {
+    background-color: var(--section-team-background);
+    padding: 94px 0;
+}
+
+h1.team-title {
+    color: var(--team-title);
+    line-height: 116%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.team-figure {
+    margin: 0;
+    width: 270px;
+    background-color: var(--team-figure-background);
+}
+
+.team-photo {
+    width: 100%;
+    height: 260px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team-text-name {
+    font-weight: 500;
+    color: var(--team-text-name);
+    line-height: 118%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.team-text-job {
+    font-weight: 400;
+    color: var(--team-text-job);
+    line-height: 118%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--footer-background);
+    padding: 60px 0;
+}
+
+.footer-p {
+    color: var(--footer-text-adress);
+    line-height: 171%;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.footer-text {
+    color: var(--footer-link);
+    font-size: 14px;
+    line-height: 171%;
+    font-weight: 400;
+}
+
+.footer-img {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.description-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description-item::before {
+    background-color: var(--description-icon-background);
+    height: 120px;
+    width: 270px;
+    display: block;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.description-item-1::before {
+    content: url('/img/antenna.png');
+}
+
+.description-item-2::before {
+    content: url('/img/Clock.png');
+}
+
+.description-item-3::before {
+    content: url('/img/computer-diagram.png');
+}
+
+.description-item-4::before {
+    content: url('/img/astronaut.png');
+}
